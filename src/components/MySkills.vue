@@ -5,7 +5,7 @@
       <div>
         <div class="subtitle">Web Development</div>
         <div class="skills-content">
-          <div v-for="value in webs">
+          <div v-for="(value, index) in webs" :key="index">
             {{ value }}
           </div>
         </div>
@@ -13,7 +13,7 @@
       <div>
         <div class="subtitle">Others</div>
         <div class="skills-content">
-          <div v-for="value in others">
+          <div v-for="(value, index) in others" :key="index">
             {{ value }}
           </div>
         </div>

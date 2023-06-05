@@ -2,9 +2,10 @@
 import Intro from "../components/Intro.vue";
 import MySkills from "../components/MySkills.vue";
 import Projects from "../components/Projects.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
-  components: { Intro, MySkills, Projects },
+  components: { Intro, MySkills, Projects, Footer },
 };
 </script>
 
@@ -12,4 +13,5 @@ export default {
   <Intro />
   <MySkills />
   <Projects />
+  <Footer />
 </template>
